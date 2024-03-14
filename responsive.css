@@ -1,0 +1,32 @@
+@media (max-width: 1260px){
+    header{
+        padding: 0.8rem 2.2rem;
+    }
+    .desktop-nav .call-login p{
+        display: none;
+    }
+}
+
+@media (max-width: 1080px){
+    .ham-open{
+        display: block;
+    }
+    .desktop-nav ul{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 0.8rem 0.5rem
+    }
+    .desktop-nav .logo{
+        width: 10rem;
+    }
+}
+
+@media (max-width: 470px){
+    .desktop-nav .login{
+        display: none;
+    }
+}

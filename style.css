@@ -16,6 +16,10 @@
     --color-heading-black: #444a5a;
     --color-font-black: #616161;
     --color-font-grey: #aaabaf;
+    --color-navbar: #f1f2f4;
+
+    --color-orange-hover: #d26d07;
+    --color-dark-indigo-hover: #2e364e;
 
     --font-size-h1: 1.5rem;
     --font-size-p: 1rem;
@@ -23,6 +27,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background-color: #fff;
 }
 
 a{
@@ -31,4 +36,67 @@ a{
 
 li{
     list-style: none;
+}
+
+header{
+    background-color: var(--color-white);
+    padding: 1rem 4.5rem;
+    position: fixed;
+    inset: 0;
+}
+
+.desktop-nav .logo{
+    width: 15rem;
+}
+
+.desktop-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desktop-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.desktop-nav .links{
+    color: var(--color-dark-indigo);
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.desktop-nav .links:hover{
+    color: var(--color-dark-indigo-hover);
+}
+
+.desktop-nav .call-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.desktop-nav .login{
+    background-color: var(--color-orange);
+    font-weight: 500;
+    padding: 0.8rem 1.8rem;
+    color: var(--color-white);
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+.desktop-nav .login:hover{
+    background-color: var(--color-orange-hover);
+}
+
+.desktop-nav .call-login p{
+    color: var(--color-font-black);
+}
+
+.ham-open{
+    display: none;
+    font-size: 1.8rem;
 }
