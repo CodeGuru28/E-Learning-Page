@@ -5,6 +5,14 @@
     .desktop-nav .call-login p{
         display: none;
     }
+    .home h1{
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-right: 0;
+    }
+    .container{
+        padding-inline: 2.5rem;
+    }
 }
 
 @media (max-width: 1080px){
@@ -13,6 +21,17 @@
     }
     .desktop-nav ul{
         display: none;
+    }
+    .home-right{
+        max-width: 28rem;
+    }
+    .home h1{
+        font-size: 3.2rem;
+        line-height: 3.5rem;
+    }
+    .home p{
+        font-size: 1rem;
+        width: 100%;
     }
 }
 
@@ -23,10 +42,52 @@
     .desktop-nav .logo{
         width: 10rem;
     }
+    .container{
+        padding-inline: 1rem;
+    }
+    .home{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .home-right{
+        max-width: 24rem;
+    }
+    .home .brands{
+        justify-content: center;
+    }
+    .home .btns{
+        justify-content: center;
+    }
 }
 
 @media (max-width: 470px){
     .desktop-nav .login{
         display: none;
+    }
+    .home{
+        padding-block: 4rem;
+    }
+    .home h1{
+        padding-top: 1rem;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        margin-bottom: 1.8rem;
+    }
+    .home p{
+        font-size: 1rem;
+        overflow-x: auto;
+        font-weight: 400;
+    }
+    .btn-started{
+        font-size: 1rem;
+    }
+    .home .btns{
+        gap: 2rem;
+    }
+    .link{
+        font-size: 1rem;
+    }
+    .brand{
+        width: 8rem;
     }
 }
