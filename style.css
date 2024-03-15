@@ -30,6 +30,10 @@ body{
     background-color: #fff;
 }
 
+body.mobile-nav-open {
+    overflow: hidden;
+}
+
 a{
     text-decoration: none;
 }
@@ -42,7 +46,9 @@ header{
     background-color: var(--color-white);
     padding: 1rem 4.5rem;
     position: fixed;
-    inset: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .desktop-nav .logo{
@@ -96,7 +102,82 @@ header{
     color: var(--color-font-black);
 }
 
-.ham-open{
+.ham{
     display: none;
     font-size: 1.8rem;
+}
+
+.ham-open{
+    display: block;
+}
+
+header .mobile-nav-open{
+    display: block !important;
+}
+
+.mobile-nav{
+    display: none !important;
+    position: fixed;
+    inset: 0;
+    background-color: var(--color-navbar);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 0.5rem;
+}
+
+.mobile-nav .logo{
+    width: 12rem;
+}
+
+.mobile-nav ul{
+    padding-top: 3rem;
+} 
+
+/* .mobile-nav ul li{
+    
+} */
+
+.mobile-nav .links{
+    text-align: center;
+    margin-inline: auto;
+    padding-inline-start: 1rem;
+    color: var(--color-white);
+    margin-block: 1rem;
+    display: block;
+    padding-block: 1rem;
+    width: 80%;
+    font-weight: 500;
+    background-color: var(--color-orange);
+    border-radius: 1rem;
+}
+
+.mobile-nav .call-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.mobile-nav .login{
+    padding: 0.5rem 5rem;
+    border:2px solid var(--color-orange);
+    border-radius: .4rem;
+    color: var(--color-orange);  
+    font-size: 1.2rem;
+}
+
+.no-scroll {
+    overflow: hidden; /* Disable scrolling */
 }

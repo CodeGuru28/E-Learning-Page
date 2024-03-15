@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 1080px){
-    .ham-open{
+    .ham{
         display: block;
     }
     .desktop-nav ul{
