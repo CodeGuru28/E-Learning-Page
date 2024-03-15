@@ -15,8 +15,9 @@
     --color-orange: #f5800d;
     --color-heading-black: #444a5a;
     --color-font-black: #616161;
-    --color-font-grey: #aaabaf;
+    --color-font-grey: #6a6969;
     --color-navbar: #f1f2f4;
+    --color-black: #000;
 
     --color-orange-hover: #d26d07;
     --color-dark-indigo-hover: #2e364e;
@@ -220,7 +221,7 @@ header .mobile-nav-open{
 .home h1{
     padding-right: 2rem;
     font-size: 4rem;
-    color: var(--color-dark-indigo);
+    color: var(--color-heading-black);
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 4.2rem;
@@ -263,4 +264,54 @@ header .mobile-nav-open{
     font-weight: 400;
     text-decoration: underline var(--color-dark-indigo);
     color: var(--color-dark-indigo);
+}
+
+.courses{
+    margin-top: 4rem;
+}
+
+.courses h2{
+    font-size: 3.8rem;
+    font-weight: 400;
+    color: var(--color-dark-indigo);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.course-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid var(--color-dark-indigo);
+}
+
+.course{
+    padding: 2rem 2.5rem;
+}
+
+.course:nth-child(2){
+    border-left: 2px solid var(--color-dark-indigo);
+    border-right: 2px solid var(--color-dark-indigo);
+}
+
+.course h5{
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--color-heading-black);
+    line-height: 4rem;
+}
+
+.course h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-black);
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-block:0.6rem 1rem;
+}
+
+.course p{
+    font-size: 0.9rem;
+    color: var(--color-font-grey);
+    font-weight: 400;
 }

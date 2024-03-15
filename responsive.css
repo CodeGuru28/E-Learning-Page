@@ -58,6 +58,18 @@
     .home .btns{
         justify-content: center;
     }
+    .course-list{
+        flex-direction: column;
+    }
+    .course:nth-child(2){
+        border-top: 2px solid var(--color-dark-indigo);
+        border-bottom: 2px solid var(--color-dark-indigo);
+        border-left: none;
+        border-right: none;
+    }
+    .course{
+        padding: 2rem 1rem;
+    }
 }
 
 @media (max-width: 470px){
