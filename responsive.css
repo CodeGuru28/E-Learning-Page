@@ -18,6 +18,7 @@
     }
     .contact-left{
         align-items: center;
+        width: 100%;
     }
     .contact-left .text{
         text-align: center;

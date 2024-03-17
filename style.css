@@ -69,6 +69,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9999;
 }
 
 .desktop-nav .logo{
@@ -525,6 +526,7 @@ h2{
     align-items: start;
     justify-content: center;
     flex-direction: column;
+    width: 50%;
 }
 
 .contact-left img{
@@ -607,7 +609,6 @@ footer{
     display: flex;
     align-items: start;
     gap: 6rem;
-    padding-bottom: 10rem;
 }
 
 footer .first{
