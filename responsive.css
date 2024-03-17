@@ -13,6 +13,15 @@
     .container{
         padding-inline: 2.5rem;
     }
+    .contact-us{
+        flex-direction: column;
+    }
+    .contact-left .text{
+        text-align: center;
+    }
+    .contact-left .text p{
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 1080px){
@@ -88,6 +97,18 @@
     .item i{
         font-size: 2.8rem;
     }
+    .ratings h2{
+        font-size: 2.5rem;
+    }
+    .contact-left .text h3{
+        font-size: 2.5rem;
+    }
+    .contact-left .text{
+        width: 100%;
+    }
+    .contact-left{
+        align-items: center;
+    }
 }
 
 @media (max-width: 470px){
@@ -125,5 +146,34 @@
     }
     .about-us .heading h2{
         font-size: 2rem;
+    }
+    .ratings h2{
+        font-size: 1.5rem;
+    }
+    .slide p{
+        font-size: 1rem;
+    }
+    .contact-left img{
+        max-width: 20rem;
+    }
+    .contact-right{
+        padding: 2.2rem 2rem;
+    }
+    .contact-right h3{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .contact-right .inp input{
+        width: 100%;
+        height: 2.5rem;
+    }
+    .contact-right .submit{
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right .inp label{
+        font-size: 0.8rem;
     }
 }

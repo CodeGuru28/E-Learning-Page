@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>E Learning Landing Page</title>
 </head>
 <body>
@@ -19,8 +17,8 @@
                 <li><a class="links" href="#home">Home</a></li>
                 <li><a class="links" href="#courses">Courses</a></li>
                 <li><a class="links" href="#aboutUs">About us</a></li>
-                <li><a class="links" href="#services">Services</a></li>
-                <li><a class="links" href="#testimonial">Testimonial</a></li>
+                <li><a class="links" href="#rating">Ratings</a></li>
+                <li><a class="links" href="#contactUs">Contact us</a></li>
             </ul>
             <div class="call-login">
                 <p>Call Now<br>123-456-7891</p>
@@ -37,8 +35,8 @@
                 <li><a class="links" href="#home">Home</a></li>
                 <li><a class="links" href="#courses">Courses</a></li>
                 <li><a class="links" href="#aboutUs">About us</a></li>
-                <li><a class="links" href="#services">Services</a></li>
-                <li><a class="links" href="#testimonial">Testimonial</a></li>
+                <li><a class="links" href="#rating">Ratings</a></li>
+                <li><a class="links" href="#contactUs">Contact us</a></li>
             </ul>
             <div class="call-login">
                 <p>Call Now: 123-456-7891</p>
@@ -117,9 +115,109 @@
                 </div>
             </div>
         </section>
+        <section class="ratings container" id="rating">
+            <h2>What Our Students Say</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slide">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, fuga aliquam quis sed explicabo consequuntur magni adipisci sint nostrum inventore?</p>
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <div class="profile">
+                            <img src="./Images/matheus-ferrero-W7b3eDUb_2I-unsplash (1).jpg" alt="">
+                            <div class="detail">
+                                <h4>John Doe</h4>
+                                <h5>Student</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, fuga aliquam quis sed explicabo consequuntur magni adipisci sint nostrum inventore?</p>
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <div class="profile">
+                            <img src="./Images/meritt-thomas-aoQ4DYZLE_E-unsplash (1).jpg" alt="">
+                            <div class="detail">
+                                <h4> Singh</h4>
+                                <h5>Student</h5>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, fuga aliquam quis sed explicabo consequuntur magni adipisci sint nostrum inventore?</p>
+                        <div class="stars">
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                            <i class="ri-star-s-fill"></i>
+                        </div>
+                        <div class="profile">
+                            <img src="./Images/meritt-thomas-aoQ4DYZLE_E-unsplash (1).jpg" alt="">
+                            <div class="detail">
+                                <h4> King</h4>
+                                <h5>Student</h5>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            <div class="swiper-btns">
+                <div class="swiper-prev-button">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+                <div class="swiper-next-button">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us container" id="contactUs">
+            <div class="contact-left">
+                <div class="text">
+                    <h3>Are you ready to start course now?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dicta repellendus repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quo?</p>
+                </div>
+                <img src="./Images/woman at work.jpg" alt="">
+            </div>
+            <div class="contact-right">
+                <h3>Fill in your details</h3>
+                <form action="#">
+                    <div class="inp">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="#name" class="input name" placeholder="Raj Kumar">
+                    </div>
+                    <div class="inp">
+                        <label for="phNumber">Phone Number</label>
+                        <input type="text" name="phNumber" id="#phNumber" class="input phNumber" placeholder="+91 9876543210">
+                    </div>
+                    <div class="inp">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" id="#email" class="input email" placeholder="xyz@gmail.com">
+                    </div>
+                    <a href="#home" class="submit">Register Now</a>
+                </form>
+            </div>
+        </section>
     </main>
     <footer></footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
